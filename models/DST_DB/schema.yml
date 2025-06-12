@@ -8,3 +8,10 @@ sources:
       tables:
         - name: DEMOGRAPHICS
           description: 'Ceci est un test.'
+  
+        - name: APPLE_MOBILITY
+          description: "A starter dbt model"
+          columns:
+            - name: country_region
+              tests:
+                - switzerland
